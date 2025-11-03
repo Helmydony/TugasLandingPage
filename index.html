@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investasi Hari Ini - Landing Page Ekonomi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo Investasi">
+                <h1>Investasi Hari Ini</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#berita">Berita Terbaru</a></li>
+                    <li><a href="#data-pasar">Data Pasar</a></li>
+                    <li><a href="#tentang">Tentang Kami</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h2>Mulai Perjalanan Investasi Anda</h2>
+                <p>Temukan berita ekonomi dan data pasar terbaru untuk keputusan finansial yang lebih baik.</p>
+                <a href="#berita" class="cta-button">Lihat Berita Terbaru</a>
+            </div>
+        </section>
+
+        <section id="berita" class="news-section">
+            <div class="container">
+                <h2>Berita Ekonomi & Investasi Terbaru</h2>
+                
+                <div class="news-grid">
+                    <article class="news-card">
+                        <img src="images/berita-saham.jpg" alt="Grafik Saham">
+                        <h3>IHSG Cetak Rekor Baru, Ditutup di 8.275</h3>
+                        <p>Pada penutupan perdagangan Senin (3/11/2025), Indeks Harga Saham Gabungan (IHSG) berhasil mencetak rekor All-Time High (ATH) baru, ditutup menguat 1,36% ke level 8.275,08.</p>
+                        <span class="news-source">Sumber: KONTAN (3 Nov 2025)</span>
+                    </article>
+
+                    <article class="news-card">
+                        <img src="images/berita-emas.jpg" alt="Emas Batangan">
+                        <h3>Harga Emas Antam Turun Rp 12.000</h3>
+                        <p>Kontras dengan IHSG, harga emas batangan PT Aneka Tambang Tbk (Antam) terpantau turun hari ini (3/11/2025). Harga emas turun Rp 12.000 menjadi Rp 2.278.000 per gram.</p>
+                        <span class="news-source">Sumber: KONTAN (3 Nov 2025)</span>
+                    </article>
+
+                    <article class="news-card">
+                        <img src="images/bg-hero.jpg" alt="Kantor Bank">
+                        <h3>Menkeu Ungkap Update Penempatan Kas Rp 200 T di Bank BUMN</h3>
+                        <p>Menteri Keuangan Purbaya Yudhi Sadewa membagikan update terbaru mengenai penempatan kas pemerintah Rp 200 triliun di 5 bank BUMN untuk menjaga likuiditas perekonomian.</p>
+                        <span class="news-source">Sumber: CNBC Indonesia (3 Nov 2025)</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="data-pasar" class="data-section">
+            <div class="container">
+                <h2>Data Pasar (Snapshot)</h2>
+                <p class="data-disclaimer">*Data berikut adalah gambar statis untuk keperluan demo tugas.</p>
+                <div class="data-grid">
+                   <img src="images/index.png" alt="Data Indeks Pasar">
+                    <img src="images/data-saham-trending.png" alt="Data Saham Trending">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Kontak: info@investasihariini.com | Alamat: Jl. Jend. Sudirman No. 1, Jakarta</p>
+            <p>&copy; 2025 Investasi Hari Ini. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Menambahkan interaktivitas sederhana pada tombol CTA
+        // Ini memenuhi syarat "Interaktivitas"
+        const ctaButton = document.querySelector('.cta-button');
+        ctaButton.addEventListener('click', function(event) {
+            // event.preventDefault(); // Hapus komentar jika tidak ingin link berpindah
+            alert('Anda mengklik tombol Call-to-Action! Selamat belajar JavaScript!');
+        });
+    </script>
+
+</body>
+</html>
